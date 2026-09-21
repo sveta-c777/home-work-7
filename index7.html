@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="un">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Позиціонування елементів</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="box-fixed">
+    Fixed: у кутку екрана
+  </div>
+
+  <h2>1. Static (звичайний потік)</h2>
+  <div class="box-static">
+    Static: стоїть у звичайному порядку
+  </div>
+
+  <h2>2. Relative (відносне зміщення)</h2>
+  <div class="box-relative">
+    Relative: зсунутий на 15px вниз і 20px вправо
+  </div>
+
+  <h2>3. Absolute (позиціонування всередині батька)</h2>
+  <div class="parent-container">
+    Батьківський блок (position: relative)
+    <div class="box-absolute">
+      Absolute: у кутку батька
+    </div>
+  </div>
+
+  <h2>4. Sticky</h2>
+  <p>Прокрутіть сторінку вниз, щоб побачити ефект sticky:</p>
+
+  
+  <div class="box-sticky">
+    Sticky: зафіксується вгорі екрана при прокрутці
+  </div>
+
+  <div class="scroll-space">
+    <p>Прокручуємо далі...</p>
+  </div>
+
+</body>
+</html>
