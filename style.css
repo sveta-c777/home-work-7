@@ -4,7 +4,15 @@ div{
   border: 2px solid #ccc;
 }
 
-
+a{
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  color: #d09e9e;
+  text-decoration: underline;
+}
 h1{
 color: rgb(142, 130, 208);
 border-bottom: 2px solid rgb(66, 37, 229);
@@ -153,7 +161,7 @@ span{
  overflow: visible;
 }
 
-/* Базові стилі для сторінки */
+
 body {
   font-family: sans-serif;
   padding: 20px;
